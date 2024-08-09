@@ -1,0 +1,47 @@
+.cryptoBasics-article {
+    width: 80%;
+    margin: 15vh auto;
+    text-align: center;
+    h2 {
+        font-size: 3.25rem;
+        font-weight: 600;
+    }
+    p {
+        font-size: 1.6rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+        width: 55%;
+        color: rgb(175, 175, 175);
+        text-wrap: balance;
+        margin: 1.25rem auto;
+    }
+    button {
+        margin: 3rem auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #fff;
+        background-color: #fff;
+        color: #000;
+        outline: none;
+        font-size: 1.5rem;
+        font-weight: 500;
+        letter-spacing: 0.25px;
+        padding: 17.5px 30px;
+        border-radius: 35px;
+        text-align: center;
+        cursor: pointer;
+        transition: .175s ease-in-out;
+        .icon {
+            margin-left: 0.75rem;
+            transition: transform .15s ease-in-out;
+        }
+        &:hover {
+            background-color: #000;
+            color: #fff;
+            .icon {
+                transform: translateX(4px);
+            }
+        }
+    }
+}
