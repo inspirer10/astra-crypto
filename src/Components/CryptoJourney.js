@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import React, { act, useState } from 'react';
+import React, { useState } from 'react';
 
 function CryptoJourney() {
     const [activeElement, setActiveElement] = useState('overview');

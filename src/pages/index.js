@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 import Lenis from 'lenis';
 import Footer from '@/Components/Footer';
 import CryptoBasics from '@/Components/CryptoBasics';
+import AppDetails from '@/Components/AppDetails';
 
 export default function Home() {
     useEffect(() => {
@@ -40,6 +41,7 @@ export default function Home() {
                 <FutureMoney />
                 <CryptoJourney />
                 <CryptoBasics />
+                <AppDetails />
                 <Footer />
             </>
         </>
