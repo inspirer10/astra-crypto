@@ -125,3 +125,33 @@
         }
     }
 }
+
+@media screen and (max-width: 1500px) {
+    .CryptoJourney-section {
+        .tiles-wrapper .tile p {
+            padding-right: 2.5%;
+            text-align: justify;
+        }
+        article .options-wrapper {
+            width: 65%;
+        }
+    }
+}
+
+@media screen and (max-width: 1285px) {
+    .CryptoJourney-section .tiles-wrapper .tile {
+        h3 {
+            text-align: center;
+            width: 90%;
+        }
+        .image {
+            margin: 0rem auto;
+        }
+        p {
+            width: 97.5%;
+            font-size: 19px;
+            text-align: center;
+            padding-right: 0;
+        }
+    }
+}

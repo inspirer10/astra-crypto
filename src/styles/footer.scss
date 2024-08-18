@@ -122,3 +122,15 @@ footer {
         }
     }
 }
+
+@media screen and (max-width: 1400px) {
+    footer .footer_content-wrapper .footer_content {
+        width: 92.5%;
+        .footer_text-wrapper {
+            margin-bottom: 8vh;
+            h2 {
+                font-size: 4.25rem;
+            }
+        }
+    }
+}

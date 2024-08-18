@@ -85,3 +85,24 @@
         }
     }
 }
+
+@media screen and (max-width: 1500px) {
+    .introduction_section {
+        .content-container {
+            .content-text-wrapper {
+                h1 {
+                    font-size: 4.2rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1285px) {
+    .introduction_section .content-container {
+        width: 97.5%;
+    }
+}

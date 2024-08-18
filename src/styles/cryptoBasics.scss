@@ -45,3 +45,18 @@
         }
     }
 }
+
+@media screen and (max-width: 1500px) {
+    .cryptoBasics-article p {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .cryptoBasics-article {
+        width: 95%;
+        p {
+            width: 95%;
+        }
+    }
+}

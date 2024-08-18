@@ -65,3 +65,31 @@ header {
         }
     }
 }
+
+@media screen and (max-width: 1500px) {
+    header {
+        .nav_links {
+            p {
+                margin: 0 1.4rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    header {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 1285px) {
+    header {
+        width: 90;
+        .nav_links {
+            p {
+                font-size: 18px;
+                margin: 0 1.25rem;
+            }
+        }
+    }
+}

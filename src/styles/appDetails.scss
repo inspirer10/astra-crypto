@@ -203,3 +203,60 @@
         }
     }
 }
+
+@media screen and (max-width: 1500px) {
+    .appDetails-section {
+        .infos-wrapper .infos-wrapper-item {
+            p {
+                font-size: 1.2rem;
+                line-height: 1.55rem;
+                width: 82.5%;
+            }
+            h5,
+            .icon-wrapper {
+                width: 82.5%;
+            }
+        }
+        .trade-article {
+            width: 75%;
+            .options-wrapper {
+                width: 47.5%;
+                min-width: 475px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    .appDetails-section .infos-wrapper .infos-wrapper-item p {
+        font-size: 19px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .appDetails-section {
+        .app-details aside div p {
+            font-size: 1.15rem;
+            letter-spacing: 0.7px;
+        }
+        .card-article {
+            width: 95%;
+            div {
+                h3 {
+                    font-size: 3rem;
+                }
+                p {
+                    width: 80%;
+                }
+            }
+        }
+        .infos-wrapper {
+            width: 95%;
+            .infos-wrapper-item p {
+                font-size: 18px;
+                line-height: 1.4rem;
+            }
+        }
+    }
+}
